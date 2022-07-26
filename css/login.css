@@ -1,3 +1,21 @@
+body {
+  background-color: #6ad5cb;
+}
+
 h1 {
-  background-color: darkorange;
+  background-color: darkorange; /* change backgroud color to orange */
+  color: blue; /* change font color to blue */
+  font-size: 3.5rem; /* change font size */
+  text-align: center; /* will put the title at the center of the page */
+}
+label {
+  background-color: coral;
+}
+
+.label-email {
+  background-color: aqua;
+}
+
+#emailInput {
+  background-color: green;
 }
