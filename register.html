@@ -5,6 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Students project - register page</title>
+    <link rel="stylesheet" href="./css/register.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Register page</h1>
+    <div>
+      <a href="index.html">Home page</a>
+      <a href="login.html">Login page</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.youtube.com/">Youtube</a>
+    </div>
+    <form onsubmit="handleFormSubmit(event)">
+      <label for="emailInput">Email</label>
+      <input type="email" id="emailInput" />
+      <br />
+      <label for="passwordInput">Password</label>
+      <input type="password" id="passwordInput" />
+      <br />
+      <label for="nameInput">Name</label>
+      <input type="text" id="nameInput" />
+      <br />
+      <label for="lastNameInput">LastName</label>
+      <input type="text" id="lastNameInput" />
+      <br />
+      <label for="ageInput">Age</label>
+      <input type="number" id="ageInput" />
+      <br />
+      <label for="areaInput">Area</label>
+      <select id="areaInput">
+        <option>South</option>
+        <option>Center</option>
+        <option>North</option>
+        <option>Lowland</option>
+      </select>
+      <br />
+      <button class="pretty-btn">Register</button>
+    </form>
+    <script src="./js/register.js"></script>
+  </body>
 </html>

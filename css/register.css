@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background-color: #caf0f8;
+}
+.pretty-btn {
+  background: linear-gradient(
+    to bottom,
+    #2dabf9 5%,
+    #0688fa 100%
+  ); /* backgroud color */
+  border-radius: 3px; /* shape of the button */
+  border: 1px solid #0b0e07; /* black line */
+  cursor: pointer; /* change the mouse pointer */
+  color: #ffffff;
+}
