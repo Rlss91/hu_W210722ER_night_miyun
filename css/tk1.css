@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  color: mediumblue;
+}
+img {
+  height: 20rem;
+}
+.left-p {
+  text-align: left;
+  font-size: larger;
+}
+.center-p {
+  text-align: center;
+}
+.right-p {
+  text-align: right;
+}
+
+.center-div {
+  text-align: center;
+}
